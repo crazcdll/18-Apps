@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59959D901C512E4500A829FD /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59959D8F1C512E4500A829FD /* bg.jpg */; };
 		59E639EC1C449FBF0033C226 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E639EB1C449FBF0033C226 /* AppDelegate.swift */; };
 		59E639EE1C449FBF0033C226 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E639ED1C449FBF0033C226 /* ViewController.swift */; };
 		59E639F11C449FBF0033C226 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59E639EF1C449FBF0033C226 /* Main.storyboard */; };
 		59E639F31C449FBF0033C226 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59E639F21C449FBF0033C226 /* Assets.xcassets */; };
 		59E639F61C449FBF0033C226 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59E639F41C449FBF0033C226 /* LaunchScreen.storyboard */; };
-		59E639FE1C44A1040033C226 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59E639FD1C44A1040033C226 /* bg.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		59959D8F1C512E4500A829FD /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
 		59E639E81C449FBF0033C226 /* Whats The Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Whats The Weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59E639EB1C449FBF0033C226 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59E639ED1C449FBF0033C226 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,7 +24,6 @@
 		59E639F21C449FBF0033C226 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59E639F51C449FBF0033C226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59E639F71C449FBF0033C226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		59E639FD1C44A1040033C226 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bg.jpg; path = ../../../../Downloads/bg.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 				59E639EB1C449FBF0033C226 /* AppDelegate.swift */,
 				59E639ED1C449FBF0033C226 /* ViewController.swift */,
 				59E639EF1C449FBF0033C226 /* Main.storyboard */,
-				59E639FD1C44A1040033C226 /* bg.jpg */,
+				59959D8F1C512E4500A829FD /* bg.jpg */,
 				59E639F21C449FBF0033C226 /* Assets.xcassets */,
 				59E639F41C449FBF0033C226 /* LaunchScreen.storyboard */,
 				59E639F71C449FBF0033C226 /* Info.plist */,
@@ -128,7 +128,7 @@
 			files = (
 				59E639F61C449FBF0033C226 /* LaunchScreen.storyboard in Resources */,
 				59E639F31C449FBF0033C226 /* Assets.xcassets in Resources */,
-				59E639FE1C44A1040033C226 /* bg.jpg in Resources */,
+				59959D901C512E4500A829FD /* bg.jpg in Resources */,
 				59E639F11C449FBF0033C226 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +289,7 @@
 				59E639FC1C449FBF0033C226 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

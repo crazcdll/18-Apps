@@ -12,7 +12,7 @@
 		592F76CC1C3D42D90032CE03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 592F76CA1C3D42D90032CE03 /* Main.storyboard */; };
 		592F76CE1C3D42D90032CE03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 592F76CD1C3D42D90032CE03 /* Assets.xcassets */; };
 		592F76D11C3D42D90032CE03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 592F76CF1C3D42D90032CE03 /* LaunchScreen.storyboard */; };
-		592F76D91C3D43CC0032CE03 /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 592F76D81C3D43CC0032CE03 /* cat.jpg */; };
+		59959D8E1C512C8B00A829FD /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59959D8D1C512C8B00A829FD /* cat.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		592F76CD1C3D42D90032CE03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		592F76D01C3D42D90032CE03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		592F76D21C3D42D90032CE03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		592F76D81C3D43CC0032CE03 /* cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cat.jpg; path = ../../../../Downloads/cat.jpg; sourceTree = "<group>"; };
+		59959D8D1C512C8B00A829FD /* cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 				592F76C61C3D42D90032CE03 /* AppDelegate.swift */,
 				592F76C81C3D42D90032CE03 /* ViewController.swift */,
 				592F76CA1C3D42D90032CE03 /* Main.storyboard */,
-				592F76D81C3D43CC0032CE03 /* cat.jpg */,
+				59959D8D1C512C8B00A829FD /* cat.jpg */,
 				592F76CD1C3D42D90032CE03 /* Assets.xcassets */,
 				592F76CF1C3D42D90032CE03 /* LaunchScreen.storyboard */,
 				592F76D21C3D42D90032CE03 /* Info.plist */,
@@ -128,7 +128,7 @@
 			files = (
 				592F76D11C3D42D90032CE03 /* LaunchScreen.storyboard in Resources */,
 				592F76CE1C3D42D90032CE03 /* Assets.xcassets in Resources */,
-				592F76D91C3D43CC0032CE03 /* cat.jpg in Resources */,
+				59959D8E1C512C8B00A829FD /* cat.jpg in Resources */,
 				592F76CC1C3D42D90032CE03 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +289,7 @@
 				592F76D71C3D42D90032CE03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -67,6 +67,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="cat.jpg" width="800" height="500"/>
+        <image name="cat.jpg" width="800" height="450"/>
     </resources>
 </document>

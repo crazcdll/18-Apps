@@ -12,7 +12,7 @@
 		598018E41C40B43000FC1298 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 598018E21C40B43000FC1298 /* Main.storyboard */; };
 		598018E61C40B43000FC1298 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 598018E51C40B43000FC1298 /* Assets.xcassets */; };
 		598018E91C40B43000FC1298 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 598018E71C40B43000FC1298 /* LaunchScreen.storyboard */; };
-		598018F11C40BB4A00FC1298 /* prime-numbers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 598018F01C40BB4A00FC1298 /* prime-numbers.jpg */; };
+		59959D8C1C512B0C00A829FD /* prime-numbers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59959D8B1C512B0C00A829FD /* prime-numbers.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		598018E51C40B43000FC1298 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		598018E81C40B43000FC1298 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		598018EA1C40B43000FC1298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		598018F01C40BB4A00FC1298 /* prime-numbers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "prime-numbers.jpg"; path = "../../../../Downloads/prime-numbers.jpg"; sourceTree = "<group>"; };
+		59959D8B1C512B0C00A829FD /* prime-numbers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "prime-numbers.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 				598018DE1C40B43000FC1298 /* AppDelegate.swift */,
 				598018E01C40B43000FC1298 /* ViewController.swift */,
 				598018E21C40B43000FC1298 /* Main.storyboard */,
-				598018F01C40BB4A00FC1298 /* prime-numbers.jpg */,
+				59959D8B1C512B0C00A829FD /* prime-numbers.jpg */,
 				598018E51C40B43000FC1298 /* Assets.xcassets */,
 				598018E71C40B43000FC1298 /* LaunchScreen.storyboard */,
 				598018EA1C40B43000FC1298 /* Info.plist */,
@@ -128,7 +128,7 @@
 			files = (
 				598018E91C40B43000FC1298 /* LaunchScreen.storyboard in Resources */,
 				598018E61C40B43000FC1298 /* Assets.xcassets in Resources */,
-				598018F11C40BB4A00FC1298 /* prime-numbers.jpg in Resources */,
+				59959D8C1C512B0C00A829FD /* prime-numbers.jpg in Resources */,
 				598018E41C40B43000FC1298 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +289,7 @@
 				598018EF1C40B43000FC1298 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
