@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		598B09E71C484C4E004449DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598B09E61C484C4E004449DA /* AppDelegate.swift */; };
+		598B09E91C484C4E004449DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598B09E81C484C4E004449DA /* ViewController.swift */; };
+		598B09EC1C484C4E004449DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 598B09EA1C484C4E004449DA /* Main.storyboard */; };
+		598B09EE1C484C4E004449DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 598B09ED1C484C4E004449DA /* Assets.xcassets */; };
+		598B09F11C484C4E004449DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 598B09EF1C484C4E004449DA /* LaunchScreen.storyboard */; };
+		598B09FB1C484C6F004449DA /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 598B09F81C484C6F004449DA /* board.png */; };
+		598B09FC1C484C6F004449DA /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 598B09F91C484C6F004449DA /* cross.png */; };
+		598B09FD1C484C6F004449DA /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = 598B09FA1C484C6F004449DA /* nought.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		598B09E31C484C4E004449DA /* Noughts And Crosses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Noughts And Crosses.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		598B09E61C484C4E004449DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		598B09E81C484C4E004449DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		598B09EB1C484C4E004449DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		598B09ED1C484C4E004449DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		598B09F01C484C4E004449DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		598B09F21C484C4E004449DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		598B09F81C484C6F004449DA /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = board.png; path = "../../../../Downloads/Noughts And Crosses/Noughts And Crosses/board.png"; sourceTree = "<group>"; };
+		598B09F91C484C6F004449DA /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cross.png; path = "../../../../Downloads/Noughts And Crosses/Noughts And Crosses/cross.png"; sourceTree = "<group>"; };
+		598B09FA1C484C6F004449DA /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nought.png; path = "../../../../Downloads/Noughts And Crosses/Noughts And Crosses/nought.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		598B09E01C484C4E004449DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		598B09DA1C484C4E004449DA = {
+			isa = PBXGroup;
+			children = (
+				598B09E51C484C4E004449DA /* Noughts And Crosses */,
+				598B09E41C484C4E004449DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		598B09E41C484C4E004449DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				598B09E31C484C4E004449DA /* Noughts And Crosses.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		598B09E51C484C4E004449DA /* Noughts And Crosses */ = {
+			isa = PBXGroup;
+			children = (
+				598B09E61C484C4E004449DA /* AppDelegate.swift */,
+				598B09E81C484C4E004449DA /* ViewController.swift */,
+				598B09EA1C484C4E004449DA /* Main.storyboard */,
+				598B09ED1C484C4E004449DA /* Assets.xcassets */,
+				598B09F81C484C6F004449DA /* board.png */,
+				598B09F91C484C6F004449DA /* cross.png */,
+				598B09FA1C484C6F004449DA /* nought.png */,
+				598B09EF1C484C4E004449DA /* LaunchScreen.storyboard */,
+				598B09F21C484C4E004449DA /* Info.plist */,
+			);
+			path = "Noughts And Crosses";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		598B09E21C484C4E004449DA /* Noughts And Crosses */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 598B09F51C484C4E004449DA /* Build configuration list for PBXNativeTarget "Noughts And Crosses" */;
+			buildPhases = (
+				598B09DF1C484C4E004449DA /* Sources */,
+				598B09E01C484C4E004449DA /* Frameworks */,
+				598B09E11C484C4E004449DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Noughts And Crosses";
+			productName = "Noughts And Crosses";
+			productReference = 598B09E31C484C4E004449DA /* Noughts And Crosses.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		598B09DB1C484C4E004449DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ZC;
+				TargetAttributes = {
+					598B09E21C484C4E004449DA = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = JKEWVWR8AC;
+					};
+				};
+			};
+			buildConfigurationList = 598B09DE1C484C4E004449DA /* Build configuration list for PBXProject "Noughts And Crosses" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 598B09DA1C484C4E004449DA;
+			productRefGroup = 598B09E41C484C4E004449DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				598B09E21C484C4E004449DA /* Noughts And Crosses */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		598B09E11C484C4E004449DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				598B09FC1C484C6F004449DA /* cross.png in Resources */,
+				598B09FB1C484C6F004449DA /* board.png in Resources */,
+				598B09FD1C484C6F004449DA /* nought.png in Resources */,
+				598B09F11C484C4E004449DA /* LaunchScreen.storyboard in Resources */,
+				598B09EE1C484C4E004449DA /* Assets.xcassets in Resources */,
+				598B09EC1C484C4E004449DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		598B09DF1C484C4E004449DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				598B09E91C484C4E004449DA /* ViewController.swift in Sources */,
+				598B09E71C484C4E004449DA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		598B09EA1C484C4E004449DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				598B09EB1C484C4E004449DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		598B09EF1C484C4E004449DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				598B09F01C484C4E004449DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		598B09F31C484C4E004449DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		598B09F41C484C4E004449DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		598B09F61C484C4E004449DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Noughts And Crosses/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zcdll.Noughts-And-Crosses";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		598B09F71C484C4E004449DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Noughts And Crosses/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zcdll.Noughts-And-Crosses";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		598B09DE1C484C4E004449DA /* Build configuration list for PBXProject "Noughts And Crosses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				598B09F31C484C4E004449DA /* Debug */,
+				598B09F41C484C4E004449DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		598B09F51C484C4E004449DA /* Build configuration list for PBXNativeTarget "Noughts And Crosses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				598B09F61C484C4E004449DA /* Debug */,
+				598B09F71C484C4E004449DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 598B09DB1C484C4E004449DA /* Project object */;
+}
