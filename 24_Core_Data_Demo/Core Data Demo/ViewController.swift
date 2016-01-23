@@ -3,7 +3,7 @@
 //  Core Data Demo
 //
 //  Created by zcdll on 16/1/22.
-//  Copyright © 2016年 zcdll. All rights reserved.
+//  Copyright © 2016年 ZC. All rights reserved.
 //
 
 import UIKit
@@ -23,9 +23,9 @@ class ViewController: UIViewController {
         /*
         let newUser = NSEntityDescription.insertNewObjectForEntityForName("Users", inManagedObjectContext: context)
         
-        newUser.setValue("zcdll", forKey: "username")
+        newUser.setValue("zcdll12", forKey: "username")
         
-        newUser.setValue("asdf", forKey: "password")
+        newUser.setValue("asdf12", forKey: "password")
         
         do {
             
@@ -40,6 +40,10 @@ class ViewController: UIViewController {
         
         let request = NSFetchRequest(entityName: "Users")
         
+        //request.predicate = NSPredicate(format: "username = %@", "zcdll3")
+        
+        request.returnsObjectsAsFaults = false
+        
         do {
             
             let results = try context.executeFetchRequest(request)
@@ -48,9 +52,26 @@ class ViewController: UIViewController {
                 
                 for result in results as! [NSManagedObject] {
                     
-                    print(result.valueForKey("username")!)
+                    /*
                     
-                    print(result.valueForKey("password")!)
+                    context.deleteObject(result)
+                    //result.setValue("zcdll3",forKey: "username")
+                    
+                    do {
+                        
+                        try context.save()
+                        
+                    } catch {}
+                    
+                    */
+                    
+                    if let username = result.valueForKey("username") as? String {
+                    
+                        print(username)
+                        
+                    }
+                    
+                    //print(result.valueForKey("password")!)
                     
                 }
                 

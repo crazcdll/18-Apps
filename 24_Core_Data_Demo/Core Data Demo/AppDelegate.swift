@@ -3,7 +3,7 @@
 //  Core Data Demo
 //
 //  Created by zcdll on 16/1/22.
-//  Copyright © 2016年 zcdll. All rights reserved.
+//  Copyright © 2016年 ZC. All rights reserved.
 //
 
 import UIKit
