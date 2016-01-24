@@ -14,15 +14,12 @@ class MasterViewController: UITableViewController, NSFetchedResultsControllerDel
     var detailViewController: DetailViewController? = nil
     var managedObjectContext: NSManagedObjectContext? = nil
 
-
     override func viewDidLoad() {
         super.viewDidLoad()
         
         let appDel: AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
         
         let context: NSManagedObjectContext = appDel.managedObjectContext
-        
-        
         
         let url = NSURL(string: "https://www.googleapis.com/blogger/v3/blogs/10861780/posts?key=AIzaSyCxL3Iltcd-oLc-dFUtdDG9TTuJGWilsYw")!
         
@@ -70,7 +67,7 @@ class MasterViewController: UITableViewController, NSFetchedResultsControllerDel
                                     
                                 } catch {
                                     
-                                    
+                                    print("Context fetched failed")
                                     
                                 }
                                 
@@ -80,19 +77,28 @@ class MasterViewController: UITableViewController, NSFetchedResultsControllerDel
                                         
                                         if let content = item["content"] as? String {
                                             
-                                            //print(title)
-                                            //print(content)
+                                            if let date = item["published"] as? String {
                                             
-                                            let newPost: NSManagedObject = NSEntityDescription.insertNewObjectForEntityForName("BlogItems", inManagedObjectContext: context)
-                                            
-                                            newPost.setValue(title, forKey: "title")
-                                            newPost.setValue(content, forKey: "content")
+                                                let updatedDate = date.componentsSeparatedByString("-08:00")[0]
+                                                
+                                                print(updatedDate)
+                                                
+                                                //print(title)
+                                                //print(content)
+                                                
+                                                let newPost: NSManagedObject = NSEntityDescription.insertNewObjectForEntityForName("BlogItems", inManagedObjectContext: context)
+                                                
+                                                newPost.setValue(title, forKey: "title")
+                                                newPost.setValue(content, forKey: "content")
+                                                newPost.setValue(updatedDate, forKey: "date")
+                                                
+                                            }
                                             
                                         }
                                         
                                     }
                                     
-                                    print(items)
+                                    //print(items)
                                 }
                                 
                             }
@@ -108,8 +114,6 @@ class MasterViewController: UITableViewController, NSFetchedResultsControllerDel
         }
         
         task.resume()
-        
-        
         
         // Do any additional setup after loading the view, typically from a nib.
         if let split = self.splitViewController {
@@ -201,7 +205,7 @@ class MasterViewController: UITableViewController, NSFetchedResultsControllerDel
         fetchRequest.fetchBatchSize = 20
         
         // Edit the sort key as appropriate.
-        let sortDescriptor = NSSortDescriptor(key: "title", ascending: false)
+        let sortDescriptor = NSSortDescriptor(key: "date", ascending: false)
         
         fetchRequest.sortDescriptors = [sortDescriptor]
         
