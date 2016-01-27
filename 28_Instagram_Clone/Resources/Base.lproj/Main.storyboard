@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ParseStarterProject_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pay-5L-nVp">
+                                <rect key="frame" x="134" y="85" width="106" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="N7c-N5-Jd7"/>
+                                    <constraint firstAttribute="width" constant="106" id="Use-PG-tnp"/>
+                                </constraints>
+                                <state key="normal" title="Insert an image"/>
+                                <connections>
+                                    <action selector="importImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="No2-Pr-BXb"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kie-YN-svf">
+                                <rect key="frame" x="20" y="155" width="335" height="295"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="295" id="BeZ-ht-GyJ"/>
+                                    <constraint firstAttribute="width" constant="335" id="ENv-kv-V0D"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iaO-pd-kNY">
+                                <rect key="frame" x="42" y="45" width="74" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="7kV-xe-XfX"/>
+                                    <constraint firstAttribute="width" constant="74" id="DCk-X2-a3t"/>
+                                </constraints>
+                                <state key="normal" title="Pause App"/>
+                                <connections>
+                                    <action selector="pause:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0rY-pU-cH6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Lt-N5-3oy">
+                                <rect key="frame" x="255" y="45" width="83" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="V1h-pI-YFf"/>
+                                    <constraint firstAttribute="width" constant="83" id="kJf-q1-J54"/>
+                                </constraints>
+                                <state key="normal" title="Create Alert"/>
+                                <connections>
+                                    <action selector="createAlert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2yd-6q-4uU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="boO-LX-YQd">
+                                <rect key="frame" x="145" y="45" width="85" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="85" id="Rhd-rd-TAS"/>
+                                    <constraint firstAttribute="height" constant="30" id="uiS-lc-hK4"/>
+                                </constraints>
+                                <state key="normal" title="Restore App"/>
+                                <connections>
+                                    <action selector="restore:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZhJ-fE-HBk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="boO-LX-YQd" firstAttribute="leading" secondItem="iaO-pd-kNY" secondAttribute="trailing" constant="29" id="8ty-V4-A56"/>
+                            <constraint firstItem="kie-YN-svf" firstAttribute="top" secondItem="pay-5L-nVp" secondAttribute="bottom" constant="40" id="EmL-9q-TJN"/>
+                            <constraint firstItem="boO-LX-YQd" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="25" id="NMu-jY-xpP"/>
+                            <constraint firstItem="0Lt-N5-3oy" firstAttribute="leading" secondItem="boO-LX-YQd" secondAttribute="trailing" constant="25" id="RjY-0H-Kg5"/>
+                            <constraint firstItem="boO-LX-YQd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dYR-fn-WfR"/>
+                            <constraint firstItem="0Lt-N5-3oy" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="25" id="fA3-Bt-GFB"/>
+                            <constraint firstItem="kie-YN-svf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hbe-VJ-cdF"/>
+                            <constraint firstItem="pay-5L-nVp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yL3-Ek-jLj"/>
+                            <constraint firstItem="iaO-pd-kNY" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="25" id="yPk-wD-ZYc"/>
+                            <constraint firstItem="pay-5L-nVp" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="65" id="zzJ-OJ-z44"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem title="Item" id="4fn-BY-eiP"/>
+                        <barButtonItem title="Item" id="XNl-Yr-wvL"/>
+                    </toolbarItems>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="importedImage" destination="kie-YN-svf" id="bw7-8n-ljw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="244.5" y="315.5"/>
+        </scene>
+    </scenes>
+</document>
