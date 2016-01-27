@@ -13,7 +13,6 @@ import Parse
 class ViewController: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
     
     //pause and restore APP
-    
     var activityIndicator: UIActivityIndicatorView = UIActivityIndicatorView()
     
     @IBAction func pause(sender: AnyObject) {
