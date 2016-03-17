@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "81BA81441A49DA1800E65899"
-               BuildableName = "ParseStarterProject-Swift.app"
-               BlueprintName = "ParseStarterProject-Swift"
-               ReferencedContainer = "container:ParseStarterProject-Swift.xcodeproj">
+               BlueprintIdentifier = "598019CC1C42097E00FC1298"
+               BuildableName = "To Do List.app"
+               BlueprintName = "To Do List"
+               ReferencedContainer = "container:To Do List.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "81BA81441A49DA1800E65899"
-            BuildableName = "ParseStarterProject-Swift.app"
-            BlueprintName = "ParseStarterProject-Swift"
-            ReferencedContainer = "container:ParseStarterProject-Swift.xcodeproj">
+            BlueprintIdentifier = "598019CC1C42097E00FC1298"
+            BuildableName = "To Do List.app"
+            BlueprintName = "To Do List"
+            ReferencedContainer = "container:To Do List.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "81BA81441A49DA1800E65899"
-            BuildableName = "ParseStarterProject-Swift.app"
-            BlueprintName = "ParseStarterProject-Swift"
-            ReferencedContainer = "container:ParseStarterProject-Swift.xcodeproj">
+            BlueprintIdentifier = "598019CC1C42097E00FC1298"
+            BuildableName = "To Do List.app"
+            BlueprintName = "To Do List"
+            ReferencedContainer = "container:To Do List.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "81BA81441A49DA1800E65899"
-            BuildableName = "ParseStarterProject-Swift.app"
-            BlueprintName = "ParseStarterProject-Swift"
-            ReferencedContainer = "container:ParseStarterProject-Swift.xcodeproj">
+            BlueprintIdentifier = "598019CC1C42097E00FC1298"
+            BuildableName = "To Do List.app"
+            BlueprintName = "To Do List"
+            ReferencedContainer = "container:To Do List.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

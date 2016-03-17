@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6087A4341C9293C800D5E565 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6087A4331C9293C800D5E565 /* TableViewController.swift */; };
+		6087A4361C94136900D5E565 /* placeholder_man.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6087A4351C94136900D5E565 /* placeholder_man.jpg */; };
+		6087A4381C941A2D00D5E565 /* PostImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6087A4371C941A2D00D5E565 /* PostImageViewController.swift */; };
+		6087A43A1C943E8900D5E565 /* cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6087A4391C943E8900D5E565 /* cell.swift */; };
+		6087A43C1C94414400D5E565 /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6087A43B1C94414400D5E565 /* FeedTableViewController.swift */; };
 		60D5DF9D1C569015008B7D48 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D5DF9C1C569015008B7D48 /* Launch Screen.storyboard */; };
 		814C3ACA1B69877600E307BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 814C3AC61B69877600E307BB /* Main.storyboard */; };
 		814C3ACB1B69877600E307BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 814C3AC81B69877600E307BB /* Images.xcassets */; };
@@ -21,11 +26,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6087A4331C9293C800D5E565 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		6087A4351C94136900D5E565 /* placeholder_man.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeholder_man.jpg; sourceTree = "<group>"; };
+		6087A4371C941A2D00D5E565 /* PostImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostImageViewController.swift; sourceTree = "<group>"; };
+		6087A4391C943E8900D5E565 /* cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cell.swift; sourceTree = "<group>"; };
+		6087A43B1C94414400D5E565 /* FeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
 		60D5DF9C1C569015008B7D48 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		814C3AC71B69877600E307BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		814C3AC81B69877600E307BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		814C3AC91B69877600E307BB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		81BA81451A49DA1800E65899 /* ParseStarterProject-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ParseStarterProject-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81BA81451A49DA1800E65899 /* InsClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InsClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81BA814A1A49DA1800E65899 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81BA814C1A49DA1800E65899 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		81BA816B1A49DB6800E65899 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
@@ -77,7 +87,7 @@
 		81BA81461A49DA1800E65899 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				81BA81451A49DA1800E65899 /* ParseStarterProject-Swift.app */,
+				81BA81451A49DA1800E65899 /* InsClone.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,8 +97,13 @@
 			children = (
 				81BA814A1A49DA1800E65899 /* AppDelegate.swift */,
 				81BA814C1A49DA1800E65899 /* ViewController.swift */,
+				6087A4331C9293C800D5E565 /* TableViewController.swift */,
 				60D5DF9C1C569015008B7D48 /* Launch Screen.storyboard */,
 				814C3AC61B69877600E307BB /* Main.storyboard */,
+				6087A4391C943E8900D5E565 /* cell.swift */,
+				6087A43B1C94414400D5E565 /* FeedTableViewController.swift */,
+				6087A4371C941A2D00D5E565 /* PostImageViewController.swift */,
+				6087A4351C94136900D5E565 /* placeholder_man.jpg */,
 			);
 			path = ParseStarterProject;
 			sourceTree = "<group>";
@@ -119,9 +134,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		81BA81441A49DA1800E65899 /* ParseStarterProject-Swift */ = {
+		81BA81441A49DA1800E65899 /* InsClone */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 81BA81641A49DA1800E65899 /* Build configuration list for PBXNativeTarget "ParseStarterProject-Swift" */;
+			buildConfigurationList = 81BA81641A49DA1800E65899 /* Build configuration list for PBXNativeTarget "InsClone" */;
 			buildPhases = (
 				81BA81411A49DA1800E65899 /* Sources */,
 				81BA81421A49DA1800E65899 /* Frameworks */,
@@ -131,9 +146,9 @@
 			);
 			dependencies = (
 			);
-			name = "ParseStarterProject-Swift";
+			name = InsClone;
 			productName = ParseStarterProject;
-			productReference = 81BA81451A49DA1800E65899 /* ParseStarterProject-Swift.app */;
+			productReference = 81BA81451A49DA1800E65899 /* InsClone.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -152,7 +167,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 81BA81401A49DA1800E65899 /* Build configuration list for PBXProject "ParseStarterProject-Swift" */;
+			buildConfigurationList = 81BA81401A49DA1800E65899 /* Build configuration list for PBXProject "InsClone" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -165,7 +180,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				81BA81441A49DA1800E65899 /* ParseStarterProject-Swift */,
+				81BA81441A49DA1800E65899 /* InsClone */,
 			);
 		};
 /* End PBXProject section */
@@ -175,6 +190,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6087A4361C94136900D5E565 /* placeholder_man.jpg in Resources */,
 				60D5DF9D1C569015008B7D48 /* Launch Screen.storyboard in Resources */,
 				814C3ACA1B69877600E307BB /* Main.storyboard in Resources */,
 				814C3ACB1B69877600E307BB /* Images.xcassets in Resources */,
@@ -188,7 +204,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6087A4381C941A2D00D5E565 /* PostImageViewController.swift in Sources */,
+				6087A43C1C94414400D5E565 /* FeedTableViewController.swift in Sources */,
 				81BA814D1A49DA1800E65899 /* ViewController.swift in Sources */,
+				6087A4341C9293C800D5E565 /* TableViewController.swift in Sources */,
+				6087A43A1C943E8900D5E565 /* cell.swift in Sources */,
 				81BA814B1A49DA1800E65899 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,7 +320,7 @@
 				);
 				INFOPLIST_FILE = Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "ParseStarterProject-Swift";
+				PRODUCT_NAME = InsClone;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -318,7 +338,7 @@
 				);
 				INFOPLIST_FILE = Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "ParseStarterProject-Swift";
+				PRODUCT_NAME = InsClone;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -326,7 +346,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		81BA81401A49DA1800E65899 /* Build configuration list for PBXProject "ParseStarterProject-Swift" */ = {
+		81BA81401A49DA1800E65899 /* Build configuration list for PBXProject "InsClone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81BA81621A49DA1800E65899 /* Debug */,
@@ -335,7 +355,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		81BA81641A49DA1800E65899 /* Build configuration list for PBXNativeTarget "ParseStarterProject-Swift" */ = {
+		81BA81641A49DA1800E65899 /* Build configuration list for PBXNativeTarget "InsClone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81BA81651A49DA1800E65899 /* Debug */,
